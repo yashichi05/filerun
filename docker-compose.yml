@@ -13,7 +13,7 @@ services:
     restart: always
 
   web:
-     build: https://github.com/yashichi05/filerun.git
+    build: https://github.com/yashichi05/filerun.git
     environment:
       FR_DB_HOST: db
       FR_DB_PORT: 3306

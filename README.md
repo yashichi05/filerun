@@ -1,6 +1,4 @@
 Installation
 ==================
-copy docker-compose.yml
-```sh
-docker-compose up -d
-```
+1. copy docker-compose.yml
+2. docker-compose up -d

@@ -8,8 +8,6 @@ services:
       MYSQL_USER: dsfjhija
       MYSQL_PASSWORD: uf4s4f45f
       MYSQL_DATABASE: filerun_database
-    volumes:
-      - /filerun/db:/var/lib/mysql
     restart: always
 
   web:
@@ -31,6 +29,5 @@ services:
     ports:
       - "80:80"
     volumes:
-      - /filerun/html:/var/www/html
-      - /filerun/user-files:/user-files
+      - /:/user-files
     restart: always
